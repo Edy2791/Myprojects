@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestor de Tarefas Inteligente</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Gestor de Tarefas</h1>
+      <p id="stats">0 tarefas | 0 concluídas</p>
+    </header>
+
+    <form id="taskForm">
+      <div class="input-group">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Adicione uma nova tarefa..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Adicionar</button>
+      </div>
+    </form>
+
+    <ul id="taskList" class="task-list"></ul>
+
+    <footer>
+      <small>Feito com ❤ por Edmundo Junior | Portfólio 2025</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
