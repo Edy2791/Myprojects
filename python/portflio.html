@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+            transform: scale(1.1);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            transition: transform 0.3s, background 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.05);
+            background: #353c5a;
+        }
+        .projeto {
+            background: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        nav {
+            background: bisque;
+            padding: 15px;
+        }
+        nav a {
+            color: #1a1a2e;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav a:hover {
+            color: #fff;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <p>Desenvolvedor Frontend | HTML, CSS, JavaScript</p>
+    </header>
+    <nav>
+        <a href="#Sobre mim">Sobre mim</a>
+        <a href="Projectos">Projectos</a>
+    </nav>
+    
+    <div class="container" style="perspective: 600;">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Meu nome é Edy e sou um desenvolvedor frontend em aprendizado.</p>
+        <p>Atualmente venho me preparando fortemente para o meu ultimo estudando Programaçao Web</p>
+        
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Projeto 1 - Landing Page</h3>
+            <p>Uma landing page responsiva criada com HTML e CSS.</p>
+            <a href="#">Ver projeto</a>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2 - Calculadora Online</h3>
+            <p>Uma calculadora funcional usando JavaScript.</p>
+            <a href="#">Ver projeto</a>
+        </div>
+    </div>
+    <div class="projeto">
+        <h3>Para ser sincero ainda nao sei, mas virei atualizar</h3>
+        <p>Ate la.</p>
+        <a href="#">Ver projecto</a>
+    </div>
+    <footer>
+        <p>Contato: edmundocom409@gmail.com | <a href="#">GitHub</a> | <a href="#">LinkedIn</a></p>
+    </footer>
+</body>
+</html>
